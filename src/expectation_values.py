@@ -11,3 +11,7 @@ def expectation_x_squared(x, psi):
 
 def variance_x(x, psi):
     return expectation_x_squared(x, psi) - expectation_x(x, psi) ** 2
+
+def uncertainty_x(x, psi):
+    var = variance_x(x, psi)
+    return np.sqrt(var)
