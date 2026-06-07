@@ -39,3 +39,6 @@ def variance_p(x, psi, hbar=1):
 def uncertainty_p(x, psi, hbar=1):
     var_p = variance_p(x, psi, hbar)
     return np.sqrt(var_p)
+
+def uncertainty_product(x, psi, hbar=1):
+    return uncertainty_x(x, psi) * uncertainty_p(x, psi)
