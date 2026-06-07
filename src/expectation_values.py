@@ -16,3 +16,9 @@ def variance_x(x, psi):
 def uncertainty_x(x, psi):
     var = variance_x(x, psi)
     return np.sqrt(var)
+
+def expectation_p(x, psi, hbar=1):
+    p_operator_psi = -1j * hbar * np.gradient(psi, x)
+    integrand = np.conjugate(psi) * p_operator_psi
+    exp_p = np.trapezoid(integrand, x)
+    return exp_p
