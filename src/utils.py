@@ -9,3 +9,6 @@ def normalize_wavefunction(x, psi):
     """
     norm = np.trapezoid(np.abs(psi) ** 2, x)
     return psi / np.sqrt(norm)
+
+def probability_density(psi):
+    return np.abs(psi) ** 2

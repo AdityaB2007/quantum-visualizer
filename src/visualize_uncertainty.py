@@ -1,6 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+from src.utils import probability_density
 from src.gaussian_wavepackets import gaussian_wavepacket
 from src.expectation_values import expectation_x, uncertainty_x
 
@@ -10,7 +11,7 @@ k = float(input("Give the wave number: "))
 x = np.linspace(x0 - 5 * spread, x0 + 5 * spread, 1000)
 
 psi = gaussian_wavepacket(x, x0, spread, k)
-prob = np.abs(psi) ** 2
+prob = probability_density(psi)
 
 mean_x = expectation_x(x, psi)
 std_dev = uncertainty_x(x, psi)

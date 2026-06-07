@@ -1,6 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+from src.utils import probability_density
 from src.gaussian_wavepackets import gaussian_wavepacket
 
 x0 = float(input("Give the center of the distribution: "))
@@ -26,12 +27,12 @@ plt.plot(x, np.imag(psi), label="imaginary component")
 The below code plots the probability density
 of the wave as a function of position x
 """
-plt.plot(x, np.abs(psi) ** 2, label="probability density")
+plt.plot(x, probability_density(psi), label="probability density")
 
 # plot properties
 plt.title("Various Visualization Metrics of Complex-Valued Gaussian Wavepackets")
-plt.xlabel("Position (x)")
-plt.ylabel("Wavefunction OR Probability Density")
+plt.xlabel("position (x)")
+plt.ylabel("wavefunction OR probability density")
 plt.grid(True)
 plt.legend()
 plt.show()
