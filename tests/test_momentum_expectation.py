@@ -9,7 +9,7 @@ def test_expectation_p_for_complex_gaussian():
     x = np.linspace(x0 - 5 * spread, x0 + 5 * spread, 1000)
     psi = gaussian_wavepacket(x, x0, spread, k)
     mean_p = expectation_p(x, psi, hbar)
-    assert abs(mean_p - hbar * k) < 1e-1
+    assert abs(mean_p - hbar * k) < 1e-2
 
 
 def test_momentum_variance_and_uncertainty():
