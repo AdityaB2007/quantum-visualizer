@@ -2,17 +2,17 @@
 
 ## Overview
 
-Quantum Visualizer is a Python-based scientific computing project for exploring foundational concepts in quantum mechanics through numerical computation and visualization.
+Quantum Visualizer is a Python-based scientific computing project for exploring foundational concepts in quantum mechanics through numerical analysis and data visualization.
 
-The project implements wavefunctions, probability densities, expectation values, uncertainty calculations, and complex Gaussian wavepackets. It combines mathematical modeling with visualization to help build intuition for quantum systems and their behavior.
+The project implements wavefunctions, probability densities, expectation values (means), uncertainty (standard deviation) calculations, and complex Gaussian wavepackets. It combines mathematical modeling with visualization to help build intuition for quantum systems and their particle-level behavior.
 
 ## Objectives
 
 - Visualize quantum wavefunctions and probability densities
-- Explore uncertainty and expectation values through numerical computation
-- Develop intuition for fundamental quantum-mechanical concepts
-- Practice scientific computing with Python and numerical methods
-- Build a modular and well-tested computational physics project
+- Explore uncertainty and expectation values via numerical methods
+- Develop intuition for fundamental concepts in quantum physics
+- Practice scientific computing with hands-on Python programming
+- Build a modular and well-tested technical project
 
 ## Technologies
 
@@ -29,7 +29,7 @@ The project implements wavefunctions, probability densities, expectation values,
 - Position expectation value, variance, and uncertainty calculations
 - Momentum expectation value, variance, and uncertainty calculations using finite-difference methods
 - Numerical verification of the Heisenberg uncertainty principle
-- Complex Gaussian wavepacket modeling
+- Complex-valued Gaussian wavepacket modeling
 - Visualization of real, imaginary, and probability-density components of wavefunctions
 - Animated Gaussian wavepacket spread visualizations
 - Animated Gaussian wavepacket wave-number visualizations
@@ -41,13 +41,9 @@ The project implements wavefunctions, probability densities, expectation values,
 
 ![Wavepacket Spread](figures/wavepacket_spread.gif)
 
-### Gaussian Wave Number Animation
+### Gaussian Wavenumber Animation
 
 ![Wavepacket Wave Number](figures/wavepacket_wavenumber.gif)
-
-### Heisenberg Uncertainty Product vs. Gaussian Spread
-
-![Uncertainty Product](figures/uncertainty_vs_spread.png)
 
 ## Installation
 
