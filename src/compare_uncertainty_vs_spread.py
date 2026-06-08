@@ -25,4 +25,6 @@ plt.ylabel("Uncertainty product")
 plt.title("Heisenberg Uncertainty Product vs Gaussian Spread")
 plt.grid(True)
 plt.legend()
+
+plt.savefig("figures/uncertainty_vs_spread.png", dpi=300, bbox_inches="tight")
 plt.show()
