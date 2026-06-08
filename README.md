@@ -1,10 +1,8 @@
-# Quantum Visualizer
+## Overview
 
-Quantum Visualizer is a Python project that explores quantum mechanics through numerical computation and visualization.
+Quantum Visualizer is a Python-based scientific computing project for exploring introductory quantum mechanics through numerical computation and visualization.
 
-Many quantum mechanics concepts are introduced through mathematical equations, which can make it difficult to build intuition for what a 
-wavefunction, probability density, or quantum system actually looks like. This project aims to bridge that gap by using scientific computing 
-tools to visualize and experiment with fundamental quantum mechanics concepts.
+The project models wavefunctions, probability densities, expectation values, uncertainty, and complex Gaussian wavepackets. It also includes visualizations and animations that help make abstract quantum concepts more intuitive.
 
 ## Goals
 
