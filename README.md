@@ -20,15 +20,7 @@ The project models wavefunctions, probability densities, expectation values, unc
 
 ## Status
 
-Currently in development.
-
-Planned topics include:
-
-* Wavefunction normalization
-* Particle-in-a-box states
-* Gaussian wave packets
-* Quantum tunneling
-* Additional visualizations that help make quantum mechanics more enjoyable
+Phase 1 completed.
 
 ## Example Visualizations
 
