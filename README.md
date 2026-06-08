@@ -31,3 +31,17 @@ Planned topics include:
 * Gaussian wave packets
 * Quantum tunneling
 * Additional visualizations that help make quantum mechanics more enjoyable
+
+## Example Visualizations
+
+### Gaussian Wavepacket Spread Animation
+
+![Wavepacket Spread](figures/wavepacket_spread.gif)
+
+### Gaussian Wave Number Animation
+
+![Wavepacket Wave Number](figures/wavepacket_wavenumber.gif)
+
+### Uncertainty Product vs Spread
+
+![Uncertainty Product](figures/uncertainty_vs_spread.png)
