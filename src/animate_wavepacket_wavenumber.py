@@ -37,4 +37,5 @@ animation = FuncAnimation(
     blit=True
 )
 
+animation.save("figures/wavepacket_wavenumber.gif", writer="pillow", fps=20)
 plt.show()

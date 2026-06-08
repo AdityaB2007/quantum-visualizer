@@ -38,4 +38,5 @@ animation = FuncAnimation(
     blit=True
 )
 
+animation.save("figures/wavepacket_spread.gif", writer="pillow", fps=20)
 plt.show()
