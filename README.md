@@ -43,3 +43,14 @@ Planned topics include:
 ### Uncertainty Product vs Spread
 
 ![Uncertainty Product](figures/uncertainty_vs_spread.png)
+
+## Features
+
+- Wavefunction normalization using numerical integration
+- Particle-in-a-box wavefunctions and probability densities
+- Position expectation value, variance, and uncertainty
+- Momentum expectation value, variance, and uncertainty using finite differences
+- Numerical verification of the Heisenberg uncertainty principle
+- Complex Gaussian wavepacket visualizations
+- Animated wavepacket spread and wave number visualizations
+- Unit tests with pytest
