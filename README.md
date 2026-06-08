@@ -54,3 +54,8 @@ Planned topics include:
 - Complex Gaussian wavepacket visualizations
 - Animated wavepacket spread and wave number visualizations
 - Unit tests with pytest
+
+## Installation
+
+```bash
+pip install -r requirements.txt
